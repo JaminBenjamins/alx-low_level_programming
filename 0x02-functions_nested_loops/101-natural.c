@@ -4,7 +4,7 @@
  * Description : Adds multiples of numbers
  * Returns : 0 always
  */
-int main
+int main(void)
 {
 	int n, sum = 0;
 

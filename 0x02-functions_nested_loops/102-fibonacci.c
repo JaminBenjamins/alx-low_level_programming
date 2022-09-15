@@ -5,22 +5,14 @@
  */
 int main(void)
 {
-	int counts;
-	unsigned long f1, f2, totals;
-	
-	for (counts = 0; counts < 50; counts++)
-	{	
-		totals = f1 + f2;
-		printf("%lu, totals");
-	
+	int sum = 0;int fb1 = 0;int fb2 = 1;int n = 0;
 
-		f1 = f2;
-		f2 = totals;
-	if (counts == 49)
-		printf("\n");
-	else 
-		printf(',');
+	while (n < 50)
+	{
+		fb1 = fb2;	
+		fb2 = sum;
+
+	printf("%d, ", sum);
 	}
 	return (0);
-}
-	
+}	
