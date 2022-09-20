@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * This is a program that prints three random numbers using a function
- * The main function is where the project is written
- * The header files specify the libraries to be used in execution
- * The program utilizes the conditional if statement in execution
+/**
+ * Main : WHere function executes 
+ * 
+ * Description : Determines if number is positive or negative 
+ * Return : The value is 0 
  */
 
 int main(void)
@@ -18,12 +18,10 @@ int main(void)
 
 	if (n > 0) 
 		printf("%i is positive\n", n);
-	
 	else if (n < 0) 
 		printf("%i is negative\n", n);
-	
 	else  
 		printf("%i is zero\n", n);
-	
+
 	return (0);
 }
