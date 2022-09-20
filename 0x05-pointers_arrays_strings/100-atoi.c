@@ -19,7 +19,7 @@ int _atoi(char *s)
 			conv = 1;
 			all = (all * 10) + (*s - '0');
 		}
-		else if (all)
+		else if (conv)
 			break;
 		s++;
 	}
