@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	int a;
 	char b;
+	int a;
 
 	srand(time(0));
 	while (a <= 2645)
