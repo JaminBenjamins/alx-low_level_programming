@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * Main : Print a string of characters in reverse
