@@ -5,7 +5,7 @@
  * puts2 : prints every other character 
  * @str : string 
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int len = 0;
 
