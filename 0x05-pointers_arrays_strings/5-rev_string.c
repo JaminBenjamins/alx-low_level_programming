@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * Main : a function that prints an order of string in reverse
@@ -8,13 +7,23 @@
  */
 void rev_string(char *s); 
 {
-	int len = strlen(*s);
-
-	while (len--)
+	int x, y, z temp;
+	x = 0;
+	
+	while (s[x] != '\0')
 	{
-		putchar(*(s + len);
-		putchar(10);
+		x++;
 	}
+	z = 0;
+	y = x - 1;
 
+	while (z < y)
+	{
+		tmp = s[z];
+		s[z] = s[y];
+		s[y] = tmp;
+		z++;
+		y--;
+	}
 
 }
