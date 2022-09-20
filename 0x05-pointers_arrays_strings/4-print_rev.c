@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * Main : Prints a string in reverse order
@@ -10,6 +11,6 @@ void print_rev(char *s)
 	int len = strlen(*s);
 
 	while (len --)
-		_putchar(*s + len);
+		putchar(*s + len);
 
 }
