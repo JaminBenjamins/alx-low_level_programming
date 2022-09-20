@@ -16,10 +16,10 @@ void puts_half(char *str)
 		if ( len % 2 == 1)
 			odd = (len - 1) / 2;
 			odd += 1;
-	}
-	else
-	{
-		odd = len / 2;
+	
+		else
+	
+			odd = len / 2;
 	}
 	for (; odd < len; odd++)
 	{
