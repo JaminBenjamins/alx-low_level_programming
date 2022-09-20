@@ -5,7 +5,7 @@
  *
  * Return : Akways 0
  */
-void rev_string(char *s); 
+void rev_string(char *s) 
 {
 	int x, y, z temp;
 	x = 0;
