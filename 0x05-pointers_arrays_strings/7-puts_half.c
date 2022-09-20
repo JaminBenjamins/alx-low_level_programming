@@ -5,7 +5,7 @@
  * 
  * @str - The string to print
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int len = 0; 
 	int odd;
