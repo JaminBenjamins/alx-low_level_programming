@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * Main : The function copy string printed 
- *
+ * _strcpy : copy paste string
+ * @dest : destination
+ * @src : source 
  * Return : value pointer to dest
  *
  */
@@ -15,7 +16,7 @@ char *_strcpy(char *dest, char *src);
 		*(dest + i) = *(src + i)
 			i++;
 	}
-	*(dest + i) = '\0'
+	*(dest + i) = '\0';
 	return (dest);
 }
 

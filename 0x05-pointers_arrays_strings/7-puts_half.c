@@ -1,18 +1,29 @@
 #include "main.h"
 
 /**
- * Main : Function that prints half of the numbers in a string
+ * puts-half - Prints half of a string 
  * 
- * Return : Always 0
+ * @str - The string to print
  */
 void puts_half(char *str);
 {
 	int len = 0; 
+	int odd;
 
-	while (*(str + len) != '\0')
+	for (len = 0; str[len]; str++)
+	       ;	
 	{
-		if ( len % 2 == 0)
-			_putchar(len);
-		len++;
+		if ( len % 2 == 1)
+			odd = (len - 1) / 2;
+			odd += 1;
 	}
+	else
+	{
+		odd = len / 2;
+	}
+	for (; odd < len; odd++)
+	{
+		_putchar(str[odd]);
+	}
+	_putchar('\n');
 }

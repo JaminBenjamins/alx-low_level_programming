@@ -1,9 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * Main : A function that prints a number of digits in an array
+ * print elements : print n elements of array
+ * @a : array
+ * @n : number of elementes 
  * 
- * Return : A;ways 0
+ * Return : nothing
  */
 void print_array(int *a, int n);
 {
@@ -11,10 +14,11 @@ void print_array(int *a, int n);
 
 	for (i = 0; i < n; i++)
 	{
-		if (i != n - 1)
 			printf("%d ", a[i]);
-		else
-			continue;
+
+	if (i != n - 1)
+		printf(" , ");
 	}
-	_putchar(i);
+
+	printf("\n");	
 }

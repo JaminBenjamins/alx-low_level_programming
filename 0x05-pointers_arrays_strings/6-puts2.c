@@ -1,14 +1,17 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * Main : A function that prints every character in a string
- * Return : Always 0
+ * puts2 : prints every other character 
+ * @str : string 
  */
 void puts2(char *str);
 {
 	int len = 0;
 
 	while (*(str + len) != '\0')
-		len++
-		-putchar(len);
+		if (len % 2 == 0)
+			putchar(*(str + len));
+		len++;
+	putchar(10);
 }
