@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * Main : The function that executes
- * Description: Prints last number of a value
- * Return 0 always
+ * Print_last_digit prints the last digit of a number
+ * @n : The variable to be used
+ * Return : The value of the last digit 
  */
 
 int print_last_digit(int n)
@@ -10,8 +10,10 @@ int print_last_digit(int n)
 	int l = n % 10;
 
 	if (n < 0)
-	       n *=-1;
+	{
+	       n *= - 1;
 	_putchar( l + '0');
+	}
 return (l);
 }	
 		
