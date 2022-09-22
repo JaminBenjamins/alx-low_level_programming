@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * Main : Where function exeutes
  * Description : Find absolute value of a figure
@@ -11,5 +13,5 @@ int _abs(int n)
 		return (n);
 	}
 	else
-	return(-n);
+	return(n *= - 1);
 }
