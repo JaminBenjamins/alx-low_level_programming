@@ -4,7 +4,7 @@
  * Description : Prints the minutes in a day
  * Return : Always 0
  */
-void jack_baeur(void)
+void jack_bauer(void)
 {
 	int h, m;
 	for (h = 0; h <=23; h++)
