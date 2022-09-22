@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * Main : The place where function executes
- * Description : The program adds two numbers.
- * Return : Always zero
+ * add : sum two integers 
+ * @num1 : the  first value
+ * @num2 : the second value
+ * Description : adding two integers
+ * Return : The result of addition
  */
 int add(int n1, int n2)
 {
