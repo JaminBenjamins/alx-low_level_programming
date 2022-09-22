@@ -1,7 +1,9 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * Main : Function where everything executes
- * Description : Prints set of digits iteratively
+ * print_most_numbers - print numbers to 14
+ *
  * Return no value
  */
 void print_most_numbers(void)
