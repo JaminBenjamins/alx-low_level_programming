@@ -15,8 +15,11 @@ void print_most_numbers(void)
 		for (p =0; p <=14; p++)
 		{
 			if (p > 9)
-				_putchar((p / 10 + '0');
-			_putchar((p % 10 + '0');
+			{
+				putchar((p / 10 + '0');
+			}
+			putchar((p % 10 + '0');
 		}
+		putchar(10);
 	}
 }	
