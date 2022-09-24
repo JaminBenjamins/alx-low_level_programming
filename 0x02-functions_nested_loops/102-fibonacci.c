@@ -17,9 +17,13 @@ int main(void)
 		i = j;
 		j = k;		
 
-	printf("%lu, ", k);
-	}
-	putchar('\n');
-	
+		printf("%lu", k);
+		if (sum == 49)
+			putchar('\n\);
+		else
+		{
+		printf(",");
+		}
+	}	
 	return (0);
 }	
