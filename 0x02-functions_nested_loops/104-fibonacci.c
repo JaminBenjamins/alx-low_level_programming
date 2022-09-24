@@ -36,10 +36,10 @@ int main(void)
 		i = j;
 		j = k;
 
-	if (zd >= 100)
+	if (z >= 100)
 		printf("%lu%lu", k, z);
 	else
-		printf("%lu0%lu", k, z s);
+		printf("%lu0%lu", k, z);
 	if (iterate != 98)
 		printf(", ");
 	iterate++;
