@@ -7,7 +7,8 @@
 int main(void)
 {
 	unsigned long i, j, k, sum;
-	i = 0;
+
+	i = 1;
 	j = 1;
 	
 	for (sum = 0; sum < 50; sum++)
@@ -15,11 +16,9 @@ int main(void)
 		k = i + j;
 		i = j;
 		j = k;		
-	printf("%lu, ", sum);
-	if (sum == 49)
-		putchar('\n');
-	else 
-		printf(",");
+
+	printf("%lu, ", k);
+	putchar('\n');
 	}
 	return (0);
 }	
