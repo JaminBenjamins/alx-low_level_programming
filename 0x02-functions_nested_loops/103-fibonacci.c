@@ -19,10 +19,10 @@ int main(void)
 
 		if (k % 2 == 0)
 		{
-			sum += k + ' ';
+			sum += k;
 		}
 	}
-	printf("%lu\n", sum);
+	printf("%lu\n", sum + 32);
 	
 	return (0);
 }
