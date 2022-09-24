@@ -15,7 +15,7 @@ int main(void)
 		k = i + j;
 		i = j;
 		j = k;		
-	printf("%d, ", sum);
+	printf("%lu, ", sum);
 	if (sum == 49)
 		putchar('\n');
 	else 
