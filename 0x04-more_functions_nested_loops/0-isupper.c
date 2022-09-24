@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * Main : Where function executes
+ * _isupper where function executes
+ * @c is the parameter
  * Description : Checks for uppercase character
  * Return 0 Always
  */
@@ -11,4 +12,3 @@ int _isupper(int c)
 	else
 		return (0);
 }
-	       	
