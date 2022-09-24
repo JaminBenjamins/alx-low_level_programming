@@ -19,7 +19,7 @@ int main(void)
 		k = i + j;
 		i = j;
 		j = k;
-		printf("lu, ", k);
+		printf("%lu, ", k);
 	}
 	x = i % 1000;
 	i = i % 1000;
@@ -37,9 +37,9 @@ int main(void)
 		j = k;
 
 	if (zd >= 100)
-		printf("%lu%lu", k, p);
+		printf("%lu%lu", k, z);
 	else
-		printf("%lu0%lu", k, p);
+		printf("%lu0%lu", k, z s);
 	if (iterate != 98)
 		printf(", ");
 	iterate++;
