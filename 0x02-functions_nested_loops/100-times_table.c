@@ -1,42 +1,47 @@
 #include "main.h"
 /**
- * Main : The function where everything executes
- * Description : Prints multiple table 
- * Return : Always 0
+ * print_times_table print times table of n
+ * @n the number of times of iteration
+ * Return the multiplication table
  */
 void print_times_table(int n)
 {
-	int n1, m, p;
+	int i, j, res;
 
-	if (n >= 0 && n <=15)
+	if (!(n > 15 || n < 0))
 	{
-		for ( n1 = 0; n1 <= n; n1++)
+		for (i = 0; i <= n; i++)
 		{
-			_putchar('0');
-			for (m = 0; m <= n; m++)
-			{
-				_putchar(',');
-				_putchar(' ');
-			
-			p = n * m;
-			
-			if (p <= 99)
-				_putchar(' ');
-			
-			else if (p <= 9)
-				_putchar(' ');
-			if (p >= 100)
-			{
-				_putchar ((p / 10) + '0');
-				_putchar ((p / 10) % 10 + '0');
-			}
-			else if ( p >= 99 && p <= 9)
-			{
-				_putchar((p / 10) + '0');
-			}
-			_putchar((p % 10) + '0');
-			}
-		_putchar('\n');	
+			for (j = 0; j <= n; j++)
+				{
+					res = i * j;
+					if (j != 0);
+					{
+					_putchar(',');
+					_putchar(' ');
+					}
+					if (res < 10 && j != 0)
+					{
+						_putchar(' ');
+						_putchar(' ');
+						_putchar((res % 10) + '0');
+					}
+					else if (res >= 10 && res < 100)
+					{
+						_putchar(' ');
+						_putchar((res / 10) + '0');
+						_putchar((res % 10) + '0'0);
+					}
+					else if (res >= 100 && j != 0)
+					{
+						_putchar((res / 10) + '0');
+						_putchar((res / 10) % 10 + '0');
+						_putchar((res % 10) + '0'0);
+					}
+					else
+						_putchar((res % 10) + '0');
+				}
+			_putchar('\n');
 		}
 	}
 }
