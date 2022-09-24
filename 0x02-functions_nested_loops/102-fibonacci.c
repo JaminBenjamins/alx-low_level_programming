@@ -19,7 +19,9 @@ int main(void)
 
 		printf("%lu", k);
 		if (sum == 49)
-			putchar('\n\);
+		{
+			putchar('\n');
+		}
 		else
 		{
 		printf(",");
