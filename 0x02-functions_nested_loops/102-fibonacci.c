@@ -8,7 +8,7 @@ int main(void)
 {
 	unsigned long i, j, k, sum;
 
-	i = 1;
+	i = 0; 
 	j = 1;
 	
 	for (sum = 0; sum < 50; sum++)
@@ -18,7 +18,8 @@ int main(void)
 		j = k;		
 
 	printf("%lu, ", k);
-	putchar('\n');
 	}
+	putchar('\n');
+	
 	return (0);
 }	
