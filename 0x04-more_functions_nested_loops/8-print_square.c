@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /** 
  * Main ; The function where everything executes
  * Description : prints a square followed by a line
@@ -13,10 +15,10 @@ void print_square(int size)
 		for (cide = 0; cide < size; cide++)
 		{
 			for (side = 0; (side < size - 1); side++)
-			_putchar('#');
+			putchar('#');
 		}
 
-		_putchar('#');
-		_putchar('\n');
+		putchar('#');
+		putchar('\n');
 	}
 }
