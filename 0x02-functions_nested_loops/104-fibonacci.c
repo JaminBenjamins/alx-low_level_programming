@@ -26,7 +26,7 @@ int main(void)
 	y = j % 1000;
 	j = j % 1000;
 
-	while (count <= 98)
+	while (iterate <= 98)
 	{
 		var = (x + y) / 1000;
 		z = (x + y) - var * 1000;
@@ -36,11 +36,11 @@ int main(void)
 		i = j;
 		j = k;
 
-	if (p >= 100)
+	if (zd >= 100)
 		printf("%lu%lu", k, p);
 	else
 		printf("%lu0%lu", k, p);
-	if ( != 98)
+	if (iterate != 98)
 		printf(", ");
 	iterate++;
 	}
