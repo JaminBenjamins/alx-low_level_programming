@@ -20,7 +20,7 @@ int main(void)
 
 		if ( k % 2 == 0 && k < 4000000)
 		{
-			sum += k;
+			k += sum;
 		}
 	}
 	printf("%lu\n", sum);
