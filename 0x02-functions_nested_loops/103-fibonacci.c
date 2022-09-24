@@ -12,7 +12,7 @@ int main(void)
 	count = 0;
 	j = 1;
 
-	for (sum = 0; sum < 50; sum++)
+	for (count = 0; count < 50; count++)
 	{
 		k = i + j;
 		i = j;
