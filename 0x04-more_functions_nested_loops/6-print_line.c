@@ -1,4 +1,5 @@
 #include "main.h"
+
 /** 
  * Main : This is where the function executes
  * Description : Prints a line on the buffer
