@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_most_numbers - print numbers to 14
+ * more_numbers - print numbers to 14
  *
  * Return no value
  */
@@ -12,7 +12,7 @@ void more_numbers(void)
 
 	for (iterate = 0; iterate < 10; iterate++)
 	{
-		for (p =0; p <= 14; p++)
+		for (p = 0; p <= 14; p++)
 		{
 			if (p > 9)
 			{
@@ -22,4 +22,4 @@ void more_numbers(void)
 		}
 		putchar(10);
 	}
-}	
+}
