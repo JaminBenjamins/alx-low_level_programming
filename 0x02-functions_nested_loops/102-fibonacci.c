@@ -1,18 +1,25 @@
 #include <stdio.h>
-/** Main ; Function execution
- * Description : Prints fibonacci series
+/** 
+ * main print the first 50 fibonacci numbers
+ *
  * Return Always 0
  */
 int main(void)
 {
-	int sum = 0;int fb1 = 0;int fb2 = 1;int n = 0;
-
-	while (n < 50)
+	unsigned long i, j, k, sum;
+	i = 0;
+	j = 1;
+	
+	for (sum = 0; sum < 50; sum++)
 	{
-		fb1 = fb2;	
-		fb2 = sum;
-
+		k = i + j;
+		i = j;
+		j = k;		
 	printf("%d, ", sum);
+	if (sum == 49)
+		putchar('\n');
+	else 
+		printf(",");
 	}
 	return (0);
 }	
