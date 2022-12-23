@@ -11,6 +11,9 @@ char *_strncat(char *dest, char *src, int n)
 {
 	dest_len = 0;	
 	int i;
+	
+	while (dest[i++])
+		dest_len++;
 
 	for (i = 0; src[i] && i < n; i++)
 	{
