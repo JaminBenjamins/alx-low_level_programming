@@ -13,7 +13,7 @@ void print_diagsum(int *a, int size)
 
 	for (i =0; i < size; i++)
 	{
-		sum0 += a[(size * i + 1];
+		sum0 += a[(size * i) + 1];
 		sum1 += a[(size * (i + 1)) - (i + 1)];
 	}
 	printf("%i,%i\n", sum0, sum1);
