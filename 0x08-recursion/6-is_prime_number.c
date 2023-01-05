@@ -15,5 +15,5 @@ int is_prime_number(int n)
 		return(1);
 	if (emp * emp > n)
 		return(1);
-	return(is_prime(n, emp + 1));
+	return(is_prime_number(n, emp + 1));
 }
