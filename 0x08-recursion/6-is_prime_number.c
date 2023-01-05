@@ -8,13 +8,12 @@
 int is_prime_number(int n)
 {
 	int emp = 2;
-	int i;
 	
 	if (n % emp == 0)
 		return(0);
 	if (n <= 2)
 		return(1);
-	if (i * i > emp)
+	if (emp * emp > n)
 		return(1);
 	return(is_prime(n, emp + 1));
 }
