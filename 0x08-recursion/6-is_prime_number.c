@@ -14,7 +14,7 @@ int is_prime_number(int n)
 		return(0);
 	if (n <= 2)
 		return(1);
-	if (i * i > n)
-		return(1)
-	return(is_prime(n, i + 1));
+	if (i * i > emp)
+		return(1);
+	return(is_prime(n, emp + 1));
 }
