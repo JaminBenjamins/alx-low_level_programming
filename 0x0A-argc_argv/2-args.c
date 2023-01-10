@@ -6,12 +6,16 @@
  *
  * Return always zero
  */
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
 {
-	int c;
+	int c, count;
 
-	for (c = 0; c < argc; c++)
-		printf("%s\n", argv[count]);
-
-	return(0);
+	if (argc > 0)
+	{
+		while (c < argc)
+		{
+			printf("%s\n",argv[count]);
+			return(0);
+		}
+	}
 }
