@@ -1,21 +1,22 @@
 #include <stdio.h>
 /**
- * main: prints every argument on a new line
+ * main - prints every argument on a new line
  * @argc: count arguments
  * @argv: vector of arguments
  *
- * Return always zero
+ * Return: always zero
  */
 int main(int argc, char *argv[])
 {
-	int c, count;
+	int count = 0;
 
 	if (argc > 0)
 	{
-		while (c < argc)
+		while (count < argc)
 		{
-			printf("%s\n",argv[count]);
-			return(0);
+			printf("%s\n", argv[count]);
+			count++;	
 		}
 	}
+	return (0);
 }
