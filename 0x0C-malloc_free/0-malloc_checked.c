@@ -8,13 +8,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *s;
-	int i;
+	void *mem;
 
-	s = malloc(sizeof(int *) * b);
-	if (s == NULL)
-		return (98);
-
-	for (i = 0; i < b; i++)
-		s[i] = b;
+	mem = malloc(b);
+	if (mem == NULL)
+		exit(98);
+	
+	return (mem);
 }
