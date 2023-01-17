@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Just getting started in C
+0x0D - Preprocessing functions and manipulation
