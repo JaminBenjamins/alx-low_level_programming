@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * free_list - a function that frees memory
@@ -10,7 +10,7 @@ void free_list(list_t *head)
 {
 	list_t *mancipat;
 
-	while((head = manicipat) != NULL)
+	while((head = mancipat) != NULL)
 	{
 			free(head->str);
 			free(head->next);

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * print_list - a function that prints a list of characters
