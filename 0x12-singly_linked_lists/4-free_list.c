@@ -10,10 +10,10 @@ void free_list(list_t *head)
 {
 	list_t *mancipat = head;
 
-	while((head = mancipat) != NULL)
+	while(mancipat != NULL)
 	{
-			head = head->str;
-		       	free(mancipat->next);
-		       	free(mancipat);
+		fre(mancipat->str);
+		free(mancipat->next);
+		free(mancipat);
 	}
 }
