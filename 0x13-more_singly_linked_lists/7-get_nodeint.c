@@ -4,7 +4,7 @@
  * get_nodeint_at_index - gets the number of a node at an index
  * @head: pointer to the head
  * @index: index of node
- * Return node index otherwise null
+ * Return: node index otherwise null
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
