@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * add_nodeint - a function that adds a node at the beginning of a list
