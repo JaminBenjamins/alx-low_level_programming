@@ -9,7 +9,7 @@
 size_t print_listint(const listint_t *h)
 {
 	const listint_t *p = h; 
-	size_t node;
+	size_t node = 0;
 
 	while (p != NULL)
 	{
