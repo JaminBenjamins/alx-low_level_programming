@@ -1,5 +1,5 @@
 #include "search_algos.h"
-
+#include <math.h>
 /**
  * jump_list - functions that searches for an algorithm
  * in a sorted singly linked list using jump search algorithm
@@ -30,7 +30,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 		}
 		printf("Value checked at index [%ld] = [%d]\n", jump->index, jump->n);
 	}
-	printf("Value found between indexes [%ld] and [%d]\n",
+	printf("Value found between indexes [%ld] and [%ld]\n",
 node->index, jump->index);
 
 for (; node->index < jump->index && node->n < value; node = node->next)
