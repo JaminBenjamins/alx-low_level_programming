@@ -1,2 +1,4 @@
 #!/bin/bash 
+
+#The command below runs a file through the preprocessor and saves it.
 gcc -E $CFILE -o c
