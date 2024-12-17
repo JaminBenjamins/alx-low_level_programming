@@ -1,2 +1,4 @@
 #!/bin/bash
+
+#A command that assembles the file
 gcc $CFILE -S
