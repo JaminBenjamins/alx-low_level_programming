@@ -1,2 +1,4 @@
 #!/bin/bash
+
+#A script that compiles a C File and save the executable in a file known as cisfun
 gcc $CFILE -o cisfun
