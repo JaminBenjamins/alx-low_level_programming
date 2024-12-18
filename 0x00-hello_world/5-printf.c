@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**The programm prints a phrase on the buffer. 
+/**The program prints a phrase on the buffer. 
  *
  * Returns 0 if true
  * */
