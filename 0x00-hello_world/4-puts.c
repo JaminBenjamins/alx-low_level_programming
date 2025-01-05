@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * This is a programm that prints a statement on the buffer. 
+gi * This is a programm that prints a statement on the buffer. 
  * Returns zero if executed properly or 1 if otherwise. 
  * */
 int main(void)
